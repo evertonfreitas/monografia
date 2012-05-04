@@ -1,0 +1,14 @@
+#Cactus-Os
+
+Ideia Geral-----------------------
+
+Cactus-os é um tipo de plataforma livre de integração de vários tipos de padrões de comunicação entre sensores industriais voltados para um único sistema de gerenciamento. 
+
+Como se vê na atualidade, nos métodos de análise de dados de uma determinada área ou indústria, onde vários equipamentos e grandezas que precisam de ser monitoradas constantemente, vemos um número de sensores espalhados pelo ambiente e um tipo de central de aquisição e tratamento destes dados. Este equipamento na maioria das vezes é um computador ou equivalente com uma interface que integra o usuário com a rede sensores. Logicamente esta interface é disposta através de um software de gerenciamento que é dado pelo fornecedor do equipamento. Esta solução sai muito em quase 100% das vezes. Um dos focos deste projeto em questão, é diminuir o custo das soluções citadas acima fornecendo alternativas open-source em etapas verificadas pela comunidade de desenvolvedores. Estas etapas são os métodos e confecção dos equipamentos que são frequentemente utilizados nas indústrias.
+
+O projeto em si tem como ponto de partida a pesquisa do Prof. Franklin Martins Pamplona do IFPB com Grupo de Eletrônica, Controle e Automação do IFPB (GECA). Onde utiliza-se uma gama de sensores de corrente e tensão espalhados por uma substação e uma central de aquisição e tratamento de dados, conectados através de uma rede Xbee (IEEE 802.15.4). Mais detalhes sobre o projeto em http://www.engeca.org.
+
+
+Informações técnicas--------------
+
+.............
