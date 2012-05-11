@@ -1,0 +1,60 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+%\setlength{\textwidth}{16cm}
+\setlength{\textheight}{20cm}
+\begin{document}
+
+\section{INTRODUÇÃO}
+\vspace{0.5cm}
+\subsection{Origem do Trabalho}
+
+\indent\indent A motivação para a produção deste, foi o intuito de tornar portável um sistema de gerenciamento de sensores, como o confeccionado em (PAMPLONA, 2011),
+ escrito em uma linguagem de programação muito utilizada em sistemas operancionais \textit{Linux}. A linguagem utilizada pelo grupo para criar o \textit{software} foi o Python,
+ por ser robusta, leve, alto nível e facilmente portável para outras arquiteturas de processadores. 
+\\
+\indent O porque de escolher uma liguagem de alto nível para utilização no protótipo é outra vantagem, pois se pode configurar o sistema de forma simples
+ e rápida, implementando rotinas pequenas sem que o administrador precise de um conhecimento mais denso sobre a máquina. Estes tipos de modelos de sistemas 
+podem ser vistos no dia a dia, \textit{Android OS}, que faz com que qualquer usuário com conhecimentos básicos em \textit{java} possa criar suas aplicações ou o \textit{Arduino}, que 
+lhe proporciona programar o \textit{firmware} do microcontrolador de textit{8bits} com uma liguagem bem mais simples que o \textit{C/C++}.
+
+\subsection{Área}
+\indent\indent Neste trabalho, foi realizado o desenvolvimento de um conjunto de ferramentas para utilização em \textbf{Instrumentação Eletrônica}. Este conjunto de 
+ferramentas está disposto em um sistema operacional \textit{Linux} básico que pode ser reconfigurável facilemente através de uma linguagem de alto nível.
+\\
+\indent Devido a vantagem de ser multiplataforma, ele pode ser utilizado em vários equipamentos que portam arquitetura de \textit{32bits}. Esta vantagem acaba com o
+ esforço de ter que criar um sistema do zero para uma determinada Plataforma de Medição de Parâmetros.
+\\
+\indent	Através do sistema se pode medir qualquer tipo de variável, seja essa corrente elétrica, sensores de pressão, temperatura, etc. e dependendo do que 
+for configurado no sistema, pode-se até atuar na região com motores ou chaves.
+
+\subsection{Problemática}
+\indent\indent Nos dias de hoje, as maiores dificuldades na implementação de ferramentas de medição (sensores, rede, \textit{interfaces}, etc) são referentes à 
+complexidade em configurar a parte gerencial do sistema, bem como portá-lo para outras plataformas, pois na maioria das vezes o administrador do 
+sistema estaria preso a um técnico especializado no \textit{software} de gerenciamento. Isto pode demandar tempo e custar bastante dinheiro.
+\\
+\indent Os sistemas de gerenciamento atuais, comumente oferecem uma \textit{interface} gráfica que conecta o usuário a rede de sensores espalhadas por determinada 
+área como mostra (CAMPOS, 2006) em seu trabalho sobre um sistema de instrumentação para unidades de elevação de petróleo, utilizando o \textit{LabView 8.0} para 
+exibir em “alto nível” os dados recebidos pela rede de sensores, não muito diferente do ponto de partida deste trabalho, o detalhe é que uma licença do 
+\textit{Labview}  tem um elevado custo e não pode ser moldada de forma específica para o seu sistema. 
+\\
+\indent Para diminuir os gastos financeiros, teria que ser feita uma análise de relação custo benefício entre a alternativa de se utilizar um \textit{software} 
+proprietário ou criar um para determinada aplicação. A segunda alternativa é tão custeosa quanto a primeira, pois haveria de ter um grupo focado em 
+desenvolvimento para produzir a ferramenta. Isto requer um pessoal com um conhecimento denso em \textbf{Engenharia de \textit{Software}} e com certeza é bem mais caro do 
+que manter uma licença do \textit{LabView}. 
+\\
+\indent Alternativas \textit{opensource} com foco em gerenciamento fácil e hábil vêm surgindo cada vez mais nos dias atuais como o \textit{ConnectMe} da \textbf{Digi}, que é uma 
+plataforma de \textit{32bits} com um sistema operacional \textit{Linux}, dotado de artifícios, como a linguagem de programação \textit{Python}, para escrever as rotinas do sistema 
+e acessar os dispositivos externos de forma simples e rápida. Outra alternativa, porêm não \textit{opensource}, é o sistema do roteador 
+\textit{Cisco SFS 3504} da \textbf{Cisco}, que inclui tambem, um sistema operacional \textit{Linux} com um \textit{shell script} para configurá-lo. Este modelo de sistemas de gerenciamento 
+torna simples e menos caro qualquer implementação de um projeto de sistema de monitoramento. Assim, os gastos com \textit{softwares} \textbf{supervisórios} ou com uma 
+dispendiosa equipe de desenvolvedores seriam cortados.
+
+\subsection{Justificativas}
+\indent\indent "Como mostra (BUSNARDO , 1999) em seu trabalho sobre um sistema de \textit{hardware} e \textit{software} para controle da qualidade de energia elétrica...."
+\\
+\indent A primeira ideia do projeto foi a de manter uma pequena distribuição \textit{Linux}, que pudesse ser facilmente configurada, eliminando ao máximo dependência 
+dos administradores à uma equipe técnica. A segunda foi tentar tornar o sistema de gerenciamento livre e gratuito, sobre uma licença que fornecesse 
+os devidos direitos de implementação a seus usuários. Entre outras várias outras vantagens que este projeto pode proporcionar.
+
+\end{document}
