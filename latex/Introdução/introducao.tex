@@ -2,8 +2,13 @@
 \usepackage[brazil]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx, color}
+%\usepackage{fontspec}
+%\setmainfont{Arial}
 %\setlength{\textwidth}{16cm}
-\setlength{\textheight}{20cm}
+%\setlength{\textheight}{20cm}
+\hoffset -1cm
+\voffset -1cm
+\linespread{1.5}
 \begin{document}
 
 \section{INTRODUÇÃO}
@@ -17,7 +22,7 @@
 \indent O porque de escolher uma liguagem de alto nível para utilização no protótipo é outra vantagem, pois se pode configurar o sistema de forma simples
  e rápida, implementando rotinas pequenas sem que o administrador precise de um conhecimento mais denso sobre a máquina. Estes tipos de modelos de sistemas 
 podem ser vistos no dia a dia, \textit{Android OS}, que faz com que qualquer usuário com conhecimentos básicos em \textit{java} possa criar suas aplicações ou o \textit{Arduino}, que 
-lhe proporciona programar o \textit{firmware} do microcontrolador de textit{8bits} com uma liguagem bem mais simples que o \textit{C/C++}.
+lhe proporciona programar o \textit{firmware} do microcontrolador de \textit{8bits} com uma liguagem bem mais simples que o \textit{C/C++}.
 
 \subsection{Área}
 \indent\indent Neste trabalho, foi realizado o desenvolvimento de um conjunto de ferramentas para utilização em \textbf{Instrumentação Eletrônica}. Este conjunto de 
@@ -52,10 +57,25 @@ torna simples e menos caro qualquer implementação de um projeto de sistema de 
 dispendiosa equipe de desenvolvedores seriam cortados.
 
 \subsection{Justificativas}
-\indent\indent \textcolor{red}{Como mostra (BUSNARDO , 1999) em seu trabalho sobre um sistema de \textit{hardware} e \textit{software} para controle da qualidade de energia elétrica....}
-\\
-\indent A primeira ideia do projeto foi a de manter uma pequena distribuição \textit{Linux}, que pudesse ser facilmente configurada, eliminando ao máximo dependência 
-dos administradores à uma equipe técnica. A segunda foi tentar tornar o sistema de gerenciamento livre e gratuito, sobre uma licença que fornecesse 
-os devidos direitos de implementação a seus usuários. Entre outras várias outras vantagens que este projeto pode proporcionar.
+\indent\indent Como mostra (BUSNARDO , 1999) em seu trabalho sobre um sistema de \textit{hardware} e \textit{software} para controle da qualidade de 
+energia elétrica, há várias vantagens em aplicar a Instrumentação Eletrônica à processos industriais como:
+
+\begin{itemize}
+\item Maior Qualidade: processos controlados de forma automática geram menos erros do que manufaturados;
+\item Aumento da Produção: máquinas trabalham mais do que pessoas e oferecem menos perdas;
+\item Aumento da Segurança: garantia de estabilidade nos processos industriais;
+\end{itemize}
+
+portanto se os métodos de gerenciamento dos processos puderem se dispor de forma clara em um \textit{GUI - Graphical User Interface} (Interface Gráfica
+do Usuário), a otimização ou alteração de atividades industrais podem ser feita facilmente. 
+
+
+\indent A primeira ideia do projeto foi a de manter uma pequena distribuição \textit{Linux} com foco em Automatização de Processos, que pudesse ser 
+facilmente configurada, eliminando ao máximo dependência dos administradores à uma equipe técnica. A segunda foi tentar tornar o sistema de gerenciamento 
+livre e gratuito, sobre uma licença que fornecesse os devidos direitos de implementação a seus usuários. Entre outras vantagens que este projeto pode proporcionar.
+
+\subsection{Objetivos do Trabalho}
+
+
 
 \end{document}
